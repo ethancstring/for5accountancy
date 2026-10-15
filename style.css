@@ -8,30 +8,30 @@ body {
 	font-family: arial;
 }
 
-#main-table {
+.main-table {
 	display: grid;
 	grid-template-rows: 70px auto;
 	height: 100vh;
 }
 
-#top-bar {
+.top-bar {
 	background-color: #77ccff;
 	border: 2px solid black;
 }
 
-#sub-table {
+.sub-table {
 	display: grid;
 	grid-template-columns: 240px auto;
 	height: 100%;
 }
 
-#sidebar {
+.sidebar {
 	background-color: #4499ff;
 	border: 1px solid black;
 	padding: 5px;
 }
 
-#main-body {
+.main-body {
 	background-color: #88ddff;
 	padding: 10px;
 }
@@ -64,6 +64,6 @@ a {
 	margin-right: -5px;
 }
 
-#main-body h1 {
+.main-body h1 {
 	text-decoration: underline;
 }
