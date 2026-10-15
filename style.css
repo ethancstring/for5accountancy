@@ -2,6 +2,16 @@
 	display: inline-block;
 }
 
+#homepage {
+	display: grid;
+	grid-template-rows: auto auto;
+}
+
+#people {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
 body {
 	height: 100%;
 	margin: 0px;
