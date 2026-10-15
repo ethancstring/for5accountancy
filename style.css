@@ -9,6 +9,11 @@
 	grid-template-columns: 50% 50%;
 }
 
+#people img {
+	width: 200px;
+	height: 200px;
+}
+
 body {
 	height: 100%;
 	margin: 0px;
@@ -22,7 +27,7 @@ body {
 }
 
 .top-bar {
-	background-color: #77ccff;
+	background-color: #7cf;
 	border: 2px solid black;
 }
 
@@ -63,7 +68,7 @@ a {
 	color: #321;
 }
 
-#sidebar hr {
+.sidebar hr {
 	border: 0;
 	border-top: 1px solid #000;
 	width: 100% + 10px;
