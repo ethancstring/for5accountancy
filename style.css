@@ -1,9 +1,5 @@
-#rebecca {
-	float: left;
-}
-
-#ian {
-	float: right;
+.person {
+	display: inline-block;
 }
 
 body {
